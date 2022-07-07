@@ -8,6 +8,7 @@ body {
   background-size: cover;
   background-position: center, center;
   color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /*Main container  */
@@ -19,7 +20,7 @@ body {
   padding-left: 250px;
   padding-right: 250px;
   padding-bottom: 50px;
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
 }
 
 /** Header section */
@@ -70,20 +71,13 @@ a {
 .main-info-text {
   font-size: 18px;
 }
-/* 
-.btn{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-} */
-.btn button {
+
+.btn button,.btn-2 button {
   flex: 0 1 auto;
   width: 100px;
   height: 30px;
   border-radius: 5px;
-  border: none;
-  color: black;
+  /* color: black; */
   font-weight: bold;
   padding-bottom: 2px;
 }
@@ -94,3 +88,124 @@ a {
 }
 
 /* Section2 */
+
+.info-1 {
+  background-color: rgba(128, 128, 128, 0.797);
+}
+
+.info1-items-cnt {
+  display: flex;
+  justify-content: center;
+  column-gap: 50px;
+  padding: 20px;
+
+  flex-wrap: wrap;
+  flex: 1;
+  justify-content: center;
+}
+
+.info-1-title {
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  font-weight: bolder;
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 20px;
+}
+
+.item-img-cnt {
+  flex-basis: 10%;
+}
+
+.item {
+  border-radius: 20%;
+  min-height: 150px;
+  margin-bottom: 50px;
+  box-shadow: 1px 110px 20px 0px inset;
+}
+
+.item:hover {
+  transform: scale(
+    1.1
+  );
+}
+
+
+
+/* Section 3 */
+
+.quote-cnt{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  background-image: url(images/10.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.quote-item1{
+  flex-basis: 40%;
+  font-size: 36px;
+  font-weight: bold;
+  font-style: italic;
+  
+  text-shadow: 0 0 5px #f9faf80d, 0 0 15px #f8f8fa00, 0 0 30px #f8f9fa34;
+}
+
+
+.quote-auther-cnt { 
+  display: flex;
+  justify-content: flex-end;
+    
+}
+
+
+
+/* Section 3 */
+.inf3-cnt{
+  display: flex;
+  justify-content: center;
+  
+  flex-direction: column;
+  align-items: center;
+  height: 300px;
+   }
+
+
+.inf3-cont-cnt{
+  display: flex;
+  flex-direction: column;
+  background-color: chocolate;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  row-gap: 15px;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.inf3-item1{
+  font-weight:bold;
+}
+
+
+.btn-2 button {
+  background-color: chocolate;
+  color: whitesmoke;
+  border-color: whitesmoke;
+}
+
+.btn-2 button:hover {
+  background: whitesmoke;
+  color: chocolate;
+}
+
+
+.buttom-info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}

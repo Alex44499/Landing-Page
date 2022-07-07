@@ -1,19 +1,22 @@
 # Landing-Page
+Create a Landing page to demonstrate basic HTML and CSS (Flexbox Layout)
 
-## Links
+# Links
 
 <!-- - [Try Landing Page here!](https:// ...  .github.io/landing-Page/) -->
 
 - [Link to the Assignment](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/landing-page)
 
-## About
+# Background
 
 Created a Landing Page for the Odin Project. The landing page utilizes Flexbox Layout module to position an elements on the page
-Photos made by Jiarong Deng: https://www.pexels.com/ru-ru/photo/1034662/
 
-## Screenshots
+# Utilized tools 
+- HTML
+- CSS
 
-<!--
-![](https://github.com/Appletri/Appletri/blob/main/assets/landing-page-1.JPG)
-![](https://github.com/Appletri/Appletri/blob/main/assets/landing-page-2.JPG)
-![](https://github.com/Appletri/Appletri/blob/main/assets/landing-page-3.JPG) -->
+# References
+Photos made by:
+- Jiarong Deng: https://www.pexels.com/ru-ru/photo/1034662/
+- Paul Basel: https://www.pexels.com/ru-ru/photo/1816714/
+
